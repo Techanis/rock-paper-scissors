@@ -20,4 +20,16 @@ function getComputerChoice() {
     return choice;
 }
 
-console.log(getComputerChoice());
+// console.log(getComputerChoice());
+
+function getHumanChoice() {
+    let choice = 0;
+    console.log("Choose an option");
+    console.log("1.- Rock");
+    console.log("2.- Paper");
+    console.log("3.- Scissor");
+    choice=prompt("write the number only: ");
+}
+
+getHumanChoice();
+
